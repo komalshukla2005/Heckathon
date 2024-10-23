@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Our <span>Expense Tracker</span></h1>
+  <section class="project" id="Project">
+    <div class="form-box">
+      <form id="expense-form">
+        <input type="text" id="expense-name" placeholder="Expense Name" required>
+        <input type="number" id="expense-amount" placeholder="Amount" required>
+        <input type="text" id="expense-category" placeholder="Category" required>
+        <input type="date" id="expense-date" required>
+        <button type="submit">Add Expense</button>
+      </form>
+    </div>
+    </div>
+  </section>
+  <section class="data" id="Data">
+    <h1>Users <span>Data</span></h1>
+    <div id="expense-list"></div>
+    <div id="total-expenses">Total: $0</div>
+    <div id="edit-modal" style="display: none;">
+      <div class="modal-content">
+        <span id="close-modal">&times;</span>
+        <h2>Edit Expense</h2>
+        <form id="edit-expense-form">
+          <input type="text" id="edit-expense-name" required>
+          <input type="number" id="edit-expense-amount" required>
+          <input type="text" id="edit-expense-category" required>
+          <input type="date" id="edit-expense-date" required> <!-- Added date input for editing -->
+          <button type="submit">Update Expense</button>
+        </form>
+      </div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

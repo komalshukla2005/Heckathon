@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(165, 102, 165);
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: white;
+
+}
+
+h1 {
+    text-align: center;
+   color: rgb(255, 253, 208);
+   color: black;
+}
+.form-box{
+    background-color: rgb(230, 230, 250);
+    color: black;
+    height:31rem;
+    width:100%;
+    padding: 2rem;
+    border-radius:5px;
+    background-color: rgb(211, 211, 211);
+}
+.form-box input{
+    padding:0.6rem;
+    padding-top:1rem;
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+    border-radius:5px;
+    outline: none;
+}
+.form-box button{
+    font-size: 1.9rem;
+    padding: 0.5rem;
+    margin-top: 3rem;
+    margin-left:5rem;
+    background: transparent;
+    border: none;
+    border-radius:5px;
+}
+#edit-modal{
+    margin-top: 2rem;
+}
+#expense-list {
+    margin-top: 20px;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.expense-item {
+    width: 26rem;
+    padding:3rem;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(230, 230, 250);
+    color: black;
+}
+.expense-item span{
+    font-size:2rem;
+    display: flex;
+    margin-top:1rem;
+}
+.expense-item button{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    margin-left:3rem;
+    margin-top: 1rem;
+}
+.modal-content {
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    width:25rem;
+    background-color: white;
+    color: white;
+}
+.modal-content input{
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    outline: none;
+    border-radius: 5px;
+}
+.modal-content button{
+    margin-left: 5rem;
+    font-size: 1.4rem;
+    background-color: green;
+    color: white;
+    margin-top: 1rem;
+    border-radius:5px;
+    border: none;
+    cursor: pointer;
+    padding: 0.9rem;
+}
+.modal-content h2{
+    text-align: center;
+}
+.project{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+.project h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.data{
+    height: 100%;
+    width: 100%;
+    padding: 5rem;
+    margin-top: 2rem;
+}
+#total-expenses{
+    font-size:3rem;
+    margin-top: 2rem;
+    text-decoration: none;
+    width: 19rem;
+    padding:1rem;
+    border-radius: 10px;
+    margin-left:3rem;
+    background-color: white;
+    color:#000;
+}
+h1{
+    font-size: 3.2rem;
+    padding: 2rem;
+}
